@@ -12,7 +12,7 @@ import { Countdown } from "vue3-flip-countdown";
         <!-- <img :src="heroCover" class="w-full h-full object-cover absolute -z-20 left-0 top-0" /> -->
         <!-- <div class="bg-black w-full h-screen absolute -z-10 top-0 left-0"></div> -->
         <div
-            class="w-full h-screen -z-10 bg-[url('/photoshoot-1.jpg'),linear-gradient(180deg,_#FF206AAA,_rgba(255,255,255,0.4))] bg-blend-overlay bg-no-repeat bg-center bg-cover absolute left-0 top-0"></div>
+            class="w-full h-screen -z-10 bg-[url('/photoshoot-1.jpg'),linear-gradient(180deg,_#E90080BB,_rgba(255,255,255,0.4))] bg-blend-overlay bg-no-repeat bg-center bg-cover absolute left-0 top-0"></div>
 
         <div class="dropdown">
             <div tabindex="0" role="button" class="btn m-1 btn-ghost text-primary"><BarIcon /></div>

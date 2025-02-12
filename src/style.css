@@ -9,7 +9,7 @@
 }
 
 .gradient {
-    background: linear-gradient(to right, #ff009d, #ff206aff);
+    background: linear-gradient(to right, #e90080ff, rgb(179, 0, 98));
     background-size: 500% auto;
     color: white;
     animation: animate 5s ease-in-out infinite alternate;

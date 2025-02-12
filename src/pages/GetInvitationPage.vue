@@ -30,7 +30,7 @@ const handleSubmit = () => {
                         class="card-body"
                         method="post"
                         @submit.prevent="handleSubmit"
-                        netlify>
+                        data-netlify="true">
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Fullname</span>
