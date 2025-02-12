@@ -40,9 +40,9 @@ import { Countdown } from "vue3-flip-countdown";
                     mainFlipBackgroundColor="#D6D6D6FF"
                     secondFlipBackgroundColor="#FFFFFF"
                     mainColor="#111111FF"
-                    secondFlipColor="#111111FF"
-                    labelSize=".8rem"
-                    countdownSize="2.5rem" />
+                    secondFlipColor="#111111FF" />
+                <!-- labelSize=".8rem"
+                    countdownSize="2.5rem"  -->
             </div>
         </div>
     </div>
