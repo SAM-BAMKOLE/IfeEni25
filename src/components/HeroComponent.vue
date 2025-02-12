@@ -3,7 +3,7 @@
 import BarIcon from "./icons/BarIcon.vue";
 import { RouterLink } from "vue-router";
 
-import { Countdown } from "vue3-flip-countdown";
+import Countdown from "vue3-flip-countdown";
 </script>
 
 <template>
