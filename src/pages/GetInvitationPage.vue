@@ -29,7 +29,7 @@ const handleSubmit = () => {
                         name="invitation"
                         class="card-body"
                         method="post"
-                        @submit.prevent="() => handleSubmit"
+                        @submit.prevent="handleSubmit"
                         netlify>
                         <div class="form-control">
                             <label class="label">

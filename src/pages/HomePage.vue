@@ -199,19 +199,24 @@ const handleSubmit = () => {
                 <h6 class="text-xl"><b>Account number:</b> 7010798355</h6>
                 <p><b>Account name:</b> Enitan Somuyiwa</p>
             </div>
-            <div class="p-5 text-center">
+            <!-- <div class="p-5 text-center">
                 <p><b>Bank name:</b> Lead Bank</p>
                 <h6 class="text-xl"><b>Account number:</b> 214154468215</h6>
                 <p><b>Account name:</b>Christiana Ainasu</p>
                 <p><b>Narration:</b> IfehEni25</p>
-            </div>
-            <!-- <div class="p-5 text-center">
-                <p><b>Payoneer:</b> USD (Cleva)</p>
-                <p><b>Bank name:</b> First Century Bank</p>
-                <h6 class="text-xl"><b>Account number:</b> 4025209363570</h6>
-                <p><b>Beneficiary name:</b> Ainasu Seyon</p>
-                <p><b>Narration:</b> IfehEni25</p>
             </div> -->
+            <div class="p-5 text-center">
+                <p><b>Payoneer:</b> USD (Cleva)</p>
+                <p><b>Bank name:</b> Lead Bank</p>
+                <h6 class="text-xl"><b>Account number:</b> 214154468215</h6>
+                <h6 class=""><b>Routing number:</b> 101019644</h6>
+                <p><b>Account name:</b> Christiana Ainasu</p>
+                <p><b>Account type:</b> Personal Checking</p>
+                <p>
+                    <b>Account address:</b> 9450 Southwest Gemini Drive, Beaverton, OR, 97008, USA
+                </p>
+                <p><b>Narration:</b> IfehEni25</p>
+            </div>
         </div>
     </section>
     <div class="max-w-4xl mx-auto">
@@ -262,7 +267,7 @@ const handleSubmit = () => {
                 Please input your email address below. The link to stream the wedding will be sent
                 to you a few days to the wedding.
             </p>
-            <form @submit.prevent="handleSubmit" name="stream" method="post" netlify>
+            <form @submit.prevent="handleSubmit" name="stream" method="post" data-netlify="true">
                 <div class="flex items-center justify-center">
                     <input
                         type="email"
