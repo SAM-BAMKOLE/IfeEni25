@@ -22,6 +22,7 @@ const showDownloadBtn = ref<boolean>(false);
                 </div>
                 <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto">
                     <form
+                        name="invitationDownloads"
                         class="card-body"
                         method="post"
                         @submit.prevent="() => (showDownloadBtn = true)"

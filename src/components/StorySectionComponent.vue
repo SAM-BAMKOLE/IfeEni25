@@ -30,10 +30,12 @@ import shoot from "/photoshoot-2.jpg";
                 <p>
                     After some time of being friends, we discovered that our values aligned in so
                     many ways and this led to the establishment of the group that prays and studies
-                    and now Inspirational Insight, and according to Enitan Somuyiwa, what else can
-                    you be looking for in a woman, you found a woman who is interested in what you
-                    are interested in, she's beautiful and intelligent. Then, we decide to take
-                    relationship form friendship to marriage.
+                    and now Inspirational Insight, and according to Enitan Somuyiwa,
+                    <span class="block bg-gray-50 border-l-4 border-l-gray-400 py-2 px-2 my-2"
+                        >"what else can you be looking for in a woman, you found a woman who is
+                        interested in what you are interested in, she's beautiful and
+                        intelligent"</span
+                    >. Then, we decide to take relationship from friendship to marriage.
                 </p>
             </div>
         </div>

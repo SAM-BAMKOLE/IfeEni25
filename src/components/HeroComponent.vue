@@ -3,7 +3,8 @@
 import BarIcon from "./icons/BarIcon.vue";
 import { RouterLink } from "vue-router";
 
-import Countdown from "vue3-flip-countdown";
+// @ts-ignore
+import { Countdown } from "vue3-flip-countdown";
 </script>
 
 <template>
@@ -36,11 +37,12 @@ import Countdown from "vue3-flip-countdown";
             <div class="mt-10">
                 <Countdown
                     deadline="2025-03-01 11:00:00"
-                    mainFlipBackgroundColor="#FF206AFF"
+                    mainFlipBackgroundColor="#D6D6D6FF"
                     secondFlipBackgroundColor="#FFFFFF"
                     mainColor="#111111FF"
                     secondFlipColor="#111111FF" />
             </div>
         </div>
     </div>
+    <!-- #FF206AFF -->
 </template>

@@ -259,7 +259,7 @@ const goldColor = "#eab308";
                 Please input your email address below. The link to stream the wedding will be sent
                 to you a few days to the wedding.
             </p>
-            <form method="post" netlify>
+            <form @submit.prevent="" name="emails" method="post" netlify>
                 <div class="flex items-center justify-center">
                     <input
                         type="email"
