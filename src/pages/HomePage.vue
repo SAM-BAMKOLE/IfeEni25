@@ -2,7 +2,7 @@
 import HeroComponent from "../components/HeroComponent.vue";
 import AboutComponent from "../components/AboutComponent.vue";
 import SliderComponent from "../components/SliderComponent.vue";
-// import StorySectionComponent from "../components/StorySectionComponent.vue";
+import StorySectionComponent from "../components/StorySectionComponent.vue";
 // import MapComponent from "../components/MapComponent.vue";
 import FooterComponent from "../components/FooterComponent.vue";
 // assets
@@ -181,7 +181,7 @@ const goldColor = "#eab308";
                 </div>
             </div>
         </section>
-        <!-- <StorySectionComponent /> -->
+        <StorySectionComponent />
     </div>
     <section class="px-5 py-10 gradient mb-10">
         <h3 class="text-2xl md:text-3xl lg:text-4xl text-center font-accent font-bold mb-2">
@@ -197,12 +197,18 @@ const goldColor = "#eab308";
                 <p><b>Account name:</b> Enitan Somuyiwa</p>
             </div>
             <div class="p-5 text-center">
+                <p><b>Bank name:</b> Lead Bank</p>
+                <h6 class="text-xl"><b>Account number:</b> 214154468215</h6>
+                <p><b>Account name:</b>Christiana Ainasu</p>
+                <p><b>Narration:</b> IfehEni25</p>
+            </div>
+            <!-- <div class="p-5 text-center">
                 <p><b>Payoneer:</b> USD (Cleva)</p>
                 <p><b>Bank name:</b> First Century Bank</p>
                 <h6 class="text-xl"><b>Account number:</b> 4025209363570</h6>
                 <p><b>Beneficiary name:</b> Ainasu Seyon</p>
                 <p><b>Narration:</b> IfehEni25</p>
-            </div>
+            </div> -->
         </div>
     </section>
     <div class="max-w-4xl mx-auto">
@@ -226,6 +232,43 @@ const goldColor = "#eab308";
             <div class="">
                 <h5 class="text-xl mt-10 text-center"><b>Hashtag</b> #IfeEni'25</h5>
             </div>
+        </section>
+        <section class="px-5 py-10">
+            <h4
+                class="text-xl md:text-2xl lg:text-3xl text-center font-accent font-bold text-secondary mb-3">
+                Direction for Church
+            </h4>
+            <p class="text-center mb-5">
+                From Iyana Era, take Maruwa to Abule. Alight at Cele Bus-stop. Walk down the street,
+                the church - <b>"Seat of Mercy Parish"</b> is on the right.
+            </p>
+            <h4
+                class="text-xl md:text-2xl lg:text-3xl text-center font-accent font-bold text-secondary mb-3">
+                Direction for Reception
+            </h4>
+            <p class="text-center">
+                From Iyana Era, take Babalola, then from there, take Ajangbadi or Alaba. Alight at
+                <b>MORE Blessing</b>.
+            </p>
+        </section>
+        <section class="px-5 py-10">
+            <h4 class="text-lg md:text-xl lg:text-2xl text-center font-bold text-accent mb-3">
+                Want to stream the wedding LIVE?
+            </h4>
+            <p class="text-center mb-5">
+                Please input your email address below. The link to stream the wedding will be sent
+                to you a few days to the wedding.
+            </p>
+            <form method="post" netlify>
+                <div class="flex items-center justify-center">
+                    <input
+                        type="email"
+                        placeholder="example@gmail.com"
+                        class="input input-bordered placeholder:text-xs"
+                        required />
+                    <button class="btn btn-secondary">Send</button>
+                </div>
+            </form>
         </section>
     </div>
     <!-- <MapComponent /> -->

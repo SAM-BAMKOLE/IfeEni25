@@ -2,6 +2,8 @@
 // import heroCover from "../assets/photoshoot-1.jpg";
 import BarIcon from "./icons/BarIcon.vue";
 import { RouterLink } from "vue-router";
+
+import { Countdown } from "vue3-flip-countdown";
 </script>
 
 <template>
@@ -16,7 +18,7 @@ import { RouterLink } from "vue-router";
             <ul
                 tabindex="0"
                 class="dropdown-content menu bg-base-100/10 rounded-box z-[1] w-52 p-2 shadow font-bold text-white">
-                <li><RouterLink :to="{ name: 'send_donation' }">Give a Donation</RouterLink></li>
+                <!-- <li><RouterLink :to="{ name: 'send_donation' }">Give a Donation</RouterLink></li> -->
                 <li>
                     <RouterLink :to="{ name: 'get_invitation' }">Get an Invitation Card</RouterLink>
                 </li>
@@ -26,11 +28,19 @@ import { RouterLink } from "vue-router";
         <div class="text-white mt-[30vh] mx-auto text-center">
             <h1
                 class="text-[5rem] md:text-[6rem] lg:text-[7rem] font-[800] text-white leading-[0.9] text-shadow-2xl font-serif">
-                IfeEni'<span class="text-secondary">25</span>
+                IfeEni'<span class="font-bold">25</span>
             </h1>
             <h2 class="btn btn-outline btn-sm mt-2 font-bold btn-base rounded-full">
                 ~ 01/03/2025 ~
             </h2>
+            <div class="mt-10">
+                <Countdown
+                    deadline="2025-03-01 11:00:00"
+                    mainFlipBackgroundColor="#FF206AFF"
+                    secondFlipBackgroundColor="#FFFFFF"
+                    mainColor="#111111FF"
+                    secondFlipColor="#111111FF" />
+            </div>
         </div>
     </div>
 </template>

@@ -1,23 +1,41 @@
 <script setup lang="ts">
-  import shoot4 from "../assets/shoot4.jpeg"
-  import shoot5 from "../assets/shoot5.jpeg"
-  import shoot3 from "../assets/shoot3.jpeg"
+import shoot from "/photoshoot-2.jpg";
 </script>
 <template>
-  <section class="mx-5">
-  <h2 class="text-secondary font-accent text-4xl mb-2">Love story</h2>
-  <img :src="shoot4" alt="Couple's picture" class="w-full rounded-tl-[6rem] aspect-square rounded-br-[5rem] object-cover border-[.4rem] border-secondary"/>
-  <div class="text-xs italic mt-1 mb-5 text-center">Couple together under a tree</div>
-  <div class="space-y-2">
-  <p>It all began... quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua gsjj jsi hello andres</p>
-  <p> quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua</p>
-  <img :src="shoot5" alt="" class="w-full aspect-video mb-3 rounded-xl object-cover" />
-  <p> quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua</p>
-  <p>quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua</p>
-  <p>quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua</p>
-  <img :src="shoot3" alt="" class="w-full aspect-video mb-3 rounded-xl object-cover" />
-  <p>quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua</p>
-  <p>quis aliquip non deserunt cillum veniam veniam quis veniam ex labore velit duis pariatur tempor irure esse pariatur cillum tempor mollit nisi laboris dolor aliqua</p>
-  </div>
-  </section>
+    <section class="px-5 py-10">
+        <h3
+            class="text-2xl md:text-3xl lg:text-4xl text-center font-accent font-bold text-secondary mb-3">
+            This is our love story
+        </h3>
+        <div class="grid md:grid-cols-2 gap-10">
+            <img
+                :src="shoot"
+                alt="Couple's picture"
+                class="w-full rounded-3xl aspect-square object-cover" />
+            <div class="space-y-2">
+                <p>
+                    We met in the year 2011, we started out as friends from the same teens church
+                    (RCCG, God's time Parish) where she was the choir coordinator and I was the
+                    Sunday school coordinator.
+                </p>
+                <p>
+                    Our friendship continued to grow because of our desire for growth in God, we
+                    studied and prayed alongside other friends.
+                </p>
+                <p>
+                    From friendship we became more close and now we have bonded to the point of
+                    getting married.
+                </p>
+                <h4 class="font-semibold text-2xl mb-3 mt-2">Why Marriage?</h4>
+                <p>
+                    After some time of being friends, we discovered that our values aligned in so
+                    many ways and this led to the establishment of the group that prays and studies
+                    and now Inspirational Insight, and according to Enitan Somuyiwa, what else can
+                    you be looking for in a woman, you found a woman who is interested in what you
+                    are interested in, she's beautiful and intelligent. Then, we decide to take
+                    relationship form friendship to marriage.
+                </p>
+            </div>
+        </div>
+    </section>
 </template>
