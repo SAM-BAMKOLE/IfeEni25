@@ -26,7 +26,7 @@ import { Countdown } from "vue3-flip-countdown";
             </ul>
         </div>
 
-        <div class="text-white mt-[30vh] mx-auto text-center">
+        <div class="text-white mt-[25vh] mx-auto text-center">
             <h1
                 class="text-[5rem] md:text-[6rem] lg:text-[7rem] font-[800] text-white leading-[0.9] text-shadow-2xl font-serif">
                 IfeEni'<span class="font-bold">25</span>
@@ -40,7 +40,9 @@ import { Countdown } from "vue3-flip-countdown";
                     mainFlipBackgroundColor="#D6D6D6FF"
                     secondFlipBackgroundColor="#FFFFFF"
                     mainColor="#111111FF"
-                    secondFlipColor="#111111FF" />
+                    secondFlipColor="#111111FF"
+                    labelSize=".8rem"
+                    countdownSize="2.5rem" />
             </div>
         </div>
     </div>

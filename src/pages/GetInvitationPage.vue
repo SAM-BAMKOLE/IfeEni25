@@ -5,6 +5,10 @@ import FooterComponent from "../components/FooterComponent.vue";
 import { ref } from "vue";
 
 const showDownloadBtn = ref<boolean>(false);
+const handleSubmit = () => {
+    showDownloadBtn.value = true;
+    alert("Response received!");
+};
 </script>
 
 <template>
@@ -22,10 +26,10 @@ const showDownloadBtn = ref<boolean>(false);
                 </div>
                 <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto">
                     <form
-                        name="invitationDownloads"
+                        name="invitation"
                         class="card-body"
                         method="post"
-                        @submit.prevent="() => (showDownloadBtn = true)"
+                        @submit.prevent="() => handleSubmit"
                         netlify>
                         <div class="form-control">
                             <label class="label">
@@ -34,6 +38,7 @@ const showDownloadBtn = ref<boolean>(false);
                             <input
                                 type="text"
                                 placeholder="Full name"
+                                name="fullname"
                                 class="input input-bordered placeholder:text-xs"
                                 required />
                         </div>
@@ -43,6 +48,7 @@ const showDownloadBtn = ref<boolean>(false);
                             </label>
                             <input
                                 type="text"
+                                name="location"
                                 placeholder="Ijebu-ode, Ijebu Ogun state Nigeria.."
                                 class="input input-bordered placeholder:text-xs" />
                         </div>
@@ -51,6 +57,7 @@ const showDownloadBtn = ref<boolean>(false);
                                 <span class="label-text">Relationship with couple</span>
                             </label>
                             <textarea
+                                name="relationship"
                                 placeholder="Family, Bride's Friend, Groom's Mentee..."
                                 class="textarea input-bordered placeholder:text-xs resize-none"
                                 required></textarea>

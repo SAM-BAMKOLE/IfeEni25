@@ -18,6 +18,9 @@ import IgIcon from "../components/icons/IgIcon.vue";
 // --------
 const topSlides = [shoot1, shoot2, shoot3, shoot2];
 const goldColor = "#eab308";
+const handleSubmit = () => {
+    alert("Email submitted!");
+};
 </script>
 
 <template>
@@ -259,10 +262,11 @@ const goldColor = "#eab308";
                 Please input your email address below. The link to stream the wedding will be sent
                 to you a few days to the wedding.
             </p>
-            <form @submit.prevent="" name="emails" method="post" netlify>
+            <form @submit.prevent="handleSubmit" name="stream" method="post" netlify>
                 <div class="flex items-center justify-center">
                     <input
                         type="email"
+                        name="email"
                         placeholder="example@gmail.com"
                         class="input input-bordered placeholder:text-xs"
                         required />
