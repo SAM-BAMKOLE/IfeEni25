@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wavy-bottom {
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.gradient {
+    background: linear-gradient(to right, #ff009d, #ff206aff);
+    background-size: 500% auto;
+    color: white;
+    animation: animate 5s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
