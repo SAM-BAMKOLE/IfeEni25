@@ -161,7 +161,7 @@ const handleSubmit = () => {
                                     class="rounded-full inline-block bg-secondary w-2 h-2 ml-2"></div>
                             </li>
                             <li class="capitalize text-white">
-                                text-white
+                                White
                                 <div
                                     class="rounded-full inline-block bg-primary w-2 h-2 ml-2"></div>
                             </li>

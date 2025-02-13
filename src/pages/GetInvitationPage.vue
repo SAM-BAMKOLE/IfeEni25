@@ -26,7 +26,7 @@ const handleSubmit = () => {
 <template>
     <div class="">
         <div
-            class="w-full h-[70vh] -z-10 bg-[url('/photoshoot-3.jpg'),linear-gradient(180deg,_#FF206AAA,_rgba(255,255,255,0.4))] bg-blend-overlay bg-no-repeat bg-top bg-cover"></div>
+            class="w-full h-[70vh] -z-10 bg-[url('/photoshoot-3.jpg'),linear-gradient(180deg,_#8E095C,_rgba(255,255,255,0.4))] bg-blend-overlay bg-no-repeat bg-top bg-cover"></div>
         <div class="hero bg-base-200 min-h-screen text-center">
             <div class="">
                 <div class="text-center">
