@@ -39,7 +39,7 @@ import shoot from "/photoshoot-2.jpg";
             </div>
         </div>
         <p class="mt-3 rounded-md p-5 gradient">
-            Enitan is a good man, he is Godly, loving and always willing to to see the best in me. I
+            Enitan is a good man, he is Godly, loving and always willing to see the best in me. I
             know i have made the best decision about marriage and i'm grateful to God for making us
             meet at an early stage.
             <span class="text-right italic block mt-2 font-semibold">- The Bride</span>
