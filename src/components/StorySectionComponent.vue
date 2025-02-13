@@ -45,7 +45,8 @@ import shoot from "/photoshoot-2.jpg";
                         guiding us to each other and i know our marriage is blessed."
                         <span class="text-right italic block mt-2 font-semibold">- The Bride</span>
                     </p>
-                    We have decided to take our relationship from friendship to marriage.
+                    <!-- We have decided to take our relationship from friendship to marriage. -->
+                    We have decided to take our friendship to marriage.
                 </div>
             </div>
         </div>

@@ -272,6 +272,11 @@ const handleSubmit = () => {
                 From Iyana Era, take Babalola, then from there, take Ajangbadi or Alaba. Alight at
                 <b>MORE Blessing</b>.
             </p>
+            <p class="uppercase font-semibold text-center">or</p>
+            <p class="text-center">
+                From Mile two/Iyana Ipaja/Igboelerin axis, take a bus to Okoko, then from there take
+                Ajangbadi, alight at <b>MORE blessing</b>.
+            </p>
         </section>
         <section class="px-5 py-10">
             <h4 class="text-lg md:text-xl lg:text-2xl text-center font-bold text-accent mb-3">
