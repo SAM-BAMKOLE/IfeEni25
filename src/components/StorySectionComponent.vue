@@ -30,7 +30,7 @@ import shoot from "/photoshoot-2.jpg";
                 <div>
                     After some time of being friends, we discovered that our values aligned in so
                     many ways and this led to the establishment of the group that prays and studies
-                    and now Inspirational Insight, and according to:,
+                    and now Inspirational Insight, and according to the Groom and the Bride:
                     <p class="block bg-gray-50 border-l-4 border-l-gray-400 py-2 px-2 my-2">
                         "What more could you ask for in a partner? You have found a woman who shares
                         your passions, is stunningly beautiful and remarkably intelligent."
