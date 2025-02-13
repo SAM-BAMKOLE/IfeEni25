@@ -219,7 +219,7 @@ const handleSubmit = () => {
                 <p><b>Narration:</b> IfehEni25</p>
             </div> -->
             <div class="p-5 text-center">
-                <p><b>Payoneer:</b> USD (Cleva)</p>
+                <p><b>Payoneer:</b> USD</p>
                 <p><b>Bank name:</b> Lead Bank</p>
                 <h6 class="text-xl"><b>Account number:</b> 214154468215</h6>
                 <h6 class=""><b>Routing number:</b> 101019644</h6>
