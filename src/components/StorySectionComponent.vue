@@ -31,15 +31,18 @@ import shoot from "/photoshoot-2.jpg";
                     After some time of being friends, we discovered that our values aligned in so
                     many ways and this led to the establishment of the group that prays and studies
                     and now Inspirational Insight, and according to the Groom and the Bride:
-                    <p class="block bg-gray-50 border-l-4 border-l-gray-400 py-2 px-2 my-2">
+                    <p class="block bg-gray-100 border-l-4 border-l-gray-400 py-2 px-2 my-2">
                         "What more could you ask for in a partner? You have found a woman who shares
                         your passions, is stunningly beautiful and remarkably intelligent."
                         <span class="text-right italic block mt-2 font-semibold">- The Groom</span>
                     </p>
-                    <p class="block bg-gray-50 border-r-4 border-r-gray-400 py-2 px-2 mb-2">
-                        "Enitan is a good man, he is Godly, loving and always willing to see the
+                    <p class="block bg-gray-100 border-r-4 border-r-gray-400 py-2 px-2 mb-2">
+                        <!-- "Enitan is a good man, he is Godly, loving and always willing to see the
                         best in me. I know i have made the best decision about marriage and i'm
-                        grateful to God for making us meet at an early stage."
+                        grateful to God for making us meet at an early stage." -->
+                        "Enitan's heart beats with kindness, compassion and faith. He sees the best
+                        in me and brings out the best in our relationship. I'm thankful to God for
+                        guiding us to each other and i know our marriage will be blessed."
                         <span class="text-right italic block mt-2 font-semibold">- The Bride</span>
                     </p>
                     Then, we decided to take our relationship from friendship to marriage.
