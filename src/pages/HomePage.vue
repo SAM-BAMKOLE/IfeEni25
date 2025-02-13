@@ -203,11 +203,12 @@ const handleSubmit = () => {
         <h3 class="text-2xl md:text-3xl lg:text-4xl text-center font-accent font-bold mb-2">
             Gifts / Donations
         </h3>
-        <p class="text-center mb-3">
+        <p class="text-center md:mb-3">
             To support our wedding, kindly make use of the account details below:
         </p>
         <div class="grid md:grid-cols-2 divide-y-2 md:divide-y-0 md:divide-x-2">
             <div class="p-5 text-center">
+                <p class="capitalize italic"><b>Naira account</b></p>
                 <p><b>Bank name:</b> Opay</p>
                 <h6 class="text-xl"><b>Account number:</b> 7010798355</h6>
                 <p><b>Account name:</b> Enitan Somuyiwa</p>
@@ -219,15 +220,15 @@ const handleSubmit = () => {
                 <p><b>Narration:</b> IfehEni25</p>
             </div> -->
             <div class="p-5 text-center">
-                <p><b>Payoneer:</b> USD</p>
-                <p><b>Bank name:</b> Lead Bank</p>
+                <p class="italic"><b>Payoneer:</b> (Dollar Account)</p>
+                <p><b>Bank name:</b> Lead Bank (Cleva)</p>
                 <h6 class="text-xl"><b>Account number:</b> 214154468215</h6>
                 <h6 class=""><b>Routing number:</b> 101019644</h6>
                 <p><b>Account name:</b> Christiana Ainasu</p>
                 <p><b>Account type:</b> Personal Checking</p>
-                <p>
+                <!-- <p>
                     <b>Account address:</b> 9450 Southwest Gemini Drive, Beaverton, OR, 97008, USA
-                </p>
+                </p> -->
                 <p><b>Narration:</b> IfehEni25</p>
             </div>
         </div>
