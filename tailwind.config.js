@@ -14,7 +14,7 @@ export default {
             {
                 lightTheme: {
                     primary: "#FFF7FDFF",
-                    secondary: "#E90080FF",
+                    secondary: "#8E095C",
                     accent: "#000000FF",
                 },
             },

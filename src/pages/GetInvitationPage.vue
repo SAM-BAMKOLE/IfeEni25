@@ -5,9 +5,21 @@ import FooterComponent from "../components/FooterComponent.vue";
 import { ref } from "vue";
 
 const showDownloadBtn = ref<boolean>(false);
+const form = ref({ fullname: "", location: "", relationship: "" });
+function encode(data: Object) {
+    return Object.keys(data) //@ts-ignore
+        .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+        .join("&");
+}
 const handleSubmit = () => {
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "invitation", ...form }),
+    })
+        .then(() => alert("Response received!"))
+        .catch(() => alert("Unable to deliver response!"));
     showDownloadBtn.value = true;
-    alert("Response received!");
 };
 </script>
 
@@ -30,7 +42,8 @@ const handleSubmit = () => {
                         class="card-body"
                         method="post"
                         @submit.prevent="handleSubmit"
-                        data-netlify="true">
+                        netlify>
+                        <p><input type="hidden" name="form-name" value="invitation" /></p>
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Fullname</span>
@@ -40,6 +53,7 @@ const handleSubmit = () => {
                                 placeholder="Full name"
                                 name="fullname"
                                 class="input input-bordered placeholder:text-xs"
+                                v-model="form.fullname"
                                 required />
                         </div>
                         <div class="form-control">
@@ -50,7 +64,8 @@ const handleSubmit = () => {
                                 type="text"
                                 name="location"
                                 placeholder="Ijebu-ode, Ijebu Ogun state Nigeria.."
-                                class="input input-bordered placeholder:text-xs" />
+                                class="input input-bordered placeholder:text-xs"
+                                v-model="form.location" />
                         </div>
                         <div class="form-control">
                             <label class="label">
@@ -60,6 +75,7 @@ const handleSubmit = () => {
                                 name="relationship"
                                 placeholder="Family, Bride's Friend, Groom's Mentee..."
                                 class="textarea input-bordered placeholder:text-xs resize-none"
+                                v-model="form.relationship"
                                 required></textarea>
                         </div>
                         <div class="form-control mt-6">

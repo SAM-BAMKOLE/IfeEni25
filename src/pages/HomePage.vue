@@ -15,11 +15,24 @@ import photoshoot2 from "/photoshoot-2.jpg";
 
 import FbIcon from "../components/icons/FbIcon.vue";
 import IgIcon from "../components/icons/IgIcon.vue";
+import { ref } from "vue";
 // --------
 const topSlides = [shoot1, shoot2, shoot3, shoot2];
 const goldColor = "#eab308";
+const form = ref<{ email: string }>({ email: "" });
+function encode(data: Object) {
+    return Object.keys(data) //@ts-ignore
+        .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+        .join("&");
+}
 const handleSubmit = () => {
-    alert("Email submitted!");
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "stream", ...form }),
+    })
+        .then(() => alert("Email submitted!"))
+        .catch(() => alert("Email not sent!"));
 };
 </script>
 
@@ -267,13 +280,15 @@ const handleSubmit = () => {
                 Please input your email address below. The link to stream the wedding will be sent
                 to you a few days to the wedding.
             </p>
-            <form @submit.prevent="handleSubmit" name="stream" method="post" data-netlify="true">
+            <form @submit.prevent="handleSubmit" name="stream" method="post" netlify>
+                <p><input type="hidden" name="form-name" value="stream" /></p>
                 <div class="flex items-center justify-center">
                     <input
                         type="email"
                         name="email"
                         placeholder="example@gmail.com"
                         class="input input-bordered placeholder:text-xs"
+                        v-model="form.email"
                         required />
                     <button class="btn btn-secondary">Send</button>
                 </div>
