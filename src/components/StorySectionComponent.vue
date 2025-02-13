@@ -42,10 +42,10 @@ import shoot from "/photoshoot-2.jpg";
                         grateful to God for making us meet at an early stage." -->
                         "Enitan's heart beats with kindness, compassion and faith. He sees the best
                         in me and brings out the best in our relationship. I'm thankful to God for
-                        guiding us to each other and i know our marriage will be blessed."
+                        guiding us to each other and i know our marriage is blessed."
                         <span class="text-right italic block mt-2 font-semibold">- The Bride</span>
                     </p>
-                    Then, we decided to take our relationship from friendship to marriage.
+                    We have decided to take our relationship from friendship to marriage.
                 </div>
             </div>
         </div>
