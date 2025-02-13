@@ -29,7 +29,7 @@ const handleSubmit = () => {
     fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "stream", ...form }),
+        body: encode({ "form-name": "stream", ...form.value }),
     })
         .then(() => alert("Email submitted!"))
         .catch(() => alert("Email not sent!"));

@@ -15,7 +15,7 @@ const handleSubmit = () => {
     fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "invitation", ...form }),
+        body: encode({ "form-name": "invitation", ...form.value }),
     })
         .then(() => alert("Response received!"))
         .catch(() => alert("Unable to deliver response!"));
