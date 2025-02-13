@@ -208,7 +208,7 @@ const handleSubmit = () => {
         </p>
         <div class="grid md:grid-cols-2 divide-y-2 md:divide-y-0 md:divide-x-2">
             <div class="p-5 text-center">
-                <p class="capitalize italic"><b>Naira account</b></p>
+                <p class="capitalize italic text-lg mb-2 text-yellow-500"><b>Naira account</b></p>
                 <p><b>Bank name:</b> Opay</p>
                 <h6 class="text-xl"><b>Account number:</b> 7010798355</h6>
                 <p><b>Account name:</b> Enitan Somuyiwa</p>
@@ -220,7 +220,7 @@ const handleSubmit = () => {
                 <p><b>Narration:</b> IfehEni25</p>
             </div> -->
             <div class="p-5 text-center">
-                <p class="italic"><b>Payoneer:</b> (Dollar Account)</p>
+                <p class="italic text-lg mb-2 text-yellow-500"><b>Payoneer:</b> (Dollar Account)</p>
                 <p><b>Bank name:</b> Lead Bank (Cleva)</p>
                 <h6 class="text-xl"><b>Account number:</b> 214154468215</h6>
                 <h6 class=""><b>Routing number:</b> 101019644</h6>
