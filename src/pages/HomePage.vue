@@ -57,6 +57,20 @@ const handleSubmit = () => {
                 class="-mt-5 md:-mt-10 lg:-mt-20" />
         </div>
     </section>
+    <section class="px-5 pt-5 pb-10 max-w-4xl mx-auto text-center" id="stream">
+        <h3
+            class="text-xl md:text-2xl lg:text-3xl text-center font-accent font-bold text-secondary mb-3">
+            Follow this link to stream
+        </h3>
+        <div class="flex items-center justify-center">
+            <a
+                href="https://tinyurl.com/ifeheni25-stream"
+                class="btn gradient btn-xl md:btn-2xl lg:btn-3xl"
+                target="_blank"
+                >Stream LIVE</a
+            >
+        </div>
+    </section>
     <SliderComponent>
         <swiper-slide
             v-for="(slide, index) in topSlides"
